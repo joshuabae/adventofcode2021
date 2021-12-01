@@ -1,7 +1,9 @@
 ### part1
 
 # read txt file
-with open('~/files/day1.txt') as f:
+import os 
+print(os.getcwd())
+with open('files/day1.txt') as f:
     data = f.read().splitlines() 
     num_list = [int(num) for num in data]
 
@@ -18,3 +20,6 @@ result = count_inc(num_list)
 print(result)
 
 ### part2
+def slide_window(depth_lst):
+    count = 0
+    
