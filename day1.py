@@ -1,7 +1,7 @@
 ### part1
 
 # read txt file
-with open('input.txt') as f:
+with open('~/files/day1.txt') as f:
     data = f.read().splitlines() 
     num_list = [int(num) for num in data]
 
