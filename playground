@@ -1,0 +1,3 @@
+
+marked = ['F', 'F']
+all(marked=='F')
